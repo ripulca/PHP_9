@@ -1,5 +1,5 @@
 <?php
-$api_token=file_get_contents('parametrs.ini.dist');
+$api_token=file_get_contents('parametrs.txt');
 $url='https://geocode-maps.yandex.ru/1.x/?';
 $address=$_GET['adress'];
 $parameters = array(
